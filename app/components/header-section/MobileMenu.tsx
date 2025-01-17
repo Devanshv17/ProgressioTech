@@ -48,7 +48,7 @@ export default function MobileMenu({
         </Link>
       </ul>
 
-      <div className="flex flex-col gap-3 z-20 items-center justify-center">
+      {/* <div className="flex flex-col gap-3 z-20 items-center justify-center">
         <Link
           className="p-4 flex-1 flex justify-center w-full rounded-xl h-fit text-4xl visited:bg-[#E3D3BE] bg-gradient-to-r from-[#d9d9d915] to-[#7373731f] std-backdrop-blur"
           target="_blank"
@@ -76,7 +76,7 @@ export default function MobileMenu({
             <Icon icon="akar-icons:x-fill" />
           </Link>
         </div>
-      </div>
+      </div> */}
     </motion.div>
   );
 }

@@ -93,11 +93,11 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={animateIn1}
         >
-          <p className="text-white/60 inline">I&apos;m </p>
+          <p className="text-white/60 inline">We are </p>
           <span className="bg-gradient-to-br bg-clip-text text-transparent from-[#7CC0C4] via-[#548FBA] to-[#3C84C7]">
-            Devansh Verma
+            ProgressioTech
           </span>
-          <p>a Software Engineer</p>
+          <p>a group of Software Engineers.</p>
         </motion.h1>
 
         <motion.p
@@ -110,7 +110,7 @@ export default function Hero() {
       </div>
 
       {/* IMAGE */}
-      <div data-blobity-tooltip="Soft man">
+      <div>
         <motion.div
           ref={imgRef}
           style={{ rotate }}
@@ -122,7 +122,7 @@ export default function Hero() {
             src="/transparent-ade-min.png"
             priority
             fill
-            alt="Ade's picture"
+            alt="company logo"
             className="bg-image-radial px-10 pt-20"
           />
         </motion.div>

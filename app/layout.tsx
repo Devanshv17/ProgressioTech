@@ -12,7 +12,7 @@ const kumbhSans = Kumbh_Sans({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Devansh Verma — Frontend Software Engineer",
   description:
-    "A Frontend Engineer passionate about crafting next-gen software. I drive growth by crafting user experiences that blend aesthetics with functionality through my design and development skills. I thrive on turning ideas into seamless digital solutions.",
+    "We are a group of passionate development Engineer excited about crafting next-gen software. We drive growth by crafting user experiences that blend their ideas with functionality through our development skills. We thrive on turning ideas into seamless digital solutions.",
   keywords: [
     "frontend",
     "react",

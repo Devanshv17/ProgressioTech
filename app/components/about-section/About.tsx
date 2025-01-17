@@ -27,17 +27,16 @@ export default function About() {
         charSpace={"mr-[0.001em]"}
         className={`uppercase ${syne.className} antialiased text-4xl md:text-5xl xl:text-6xl font-bold opacity-80`}
       >
-        I amplify brand voices through the web
+        We amplify brand voices through the web
       </AnimatedTitle>
 
       <div className="grid grid-cols-1 lg:grid-cols-[8.5fr_3.5fr] gap-8 mt-6">
         <div className="grid grid-cols-1 antialiased gap-6 text-white/80 text-xl md:text-2xl">
           <AnimatedBody className="leading-[34px] md:leading-[39px]">
-            My passion lies in creating strong business solutions that aid
-            business growth. Whether it&apos;s a website to boost brand
-            publicity or software solutions that streamline otherwise manual
-            processes, I love taking brands from point A to the their dreamy
-            point B and iteratively improve as time goes on.
+            Our passion lies in creating strong business solutions that aid
+            business growth. Whether it's a website to boost brand publicity or
+            software solutions that streamline otherwise manual processes, we
+            love taking brands from point A to their dreamy point B.
           </AnimatedBody>
           <AnimatedBody className="leading-[34px] md:leading-[39px]">
             From writing my first lines of code back in late 2019 to this point

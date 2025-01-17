@@ -58,7 +58,7 @@ export default function Contact() {
       .then(
         () => {
           console.log("SUCCESS!");
-          toast.success("Message sent", {
+          toast.success("Sent Successfully", {
             position: "bottom-left",
             autoClose: 3000,
             hideProgressBar: false,
@@ -125,7 +125,7 @@ export default function Contact() {
                   }}
                   className="sm:mt-0 text-xl sm:text-2xl md:text-[32px] w-fit underline lg:text-[40px] font-bold leading-tight hidden sm:block lg:hidden"
                 >
-                  CONTACT ME
+                  CONTACT US
                 </span>
               </Link>
             </div>
@@ -143,7 +143,7 @@ export default function Contact() {
                   setFormDisplay(!formDisplay);
                 }}
               >
-                CONTACT&nbsp;ME
+                CONTACT&nbsp;US
               </button>
             </Link>
           </div>
