@@ -15,7 +15,7 @@ export default function Works() {
     {
       title: "Offset Africa",
       // gitLink: "https://github.com/adex-hub/url-shortening-api-landing",
-      liveLink: "https://offsetcomms.africa/",
+      liveLink: " ",
       about:
         "Offset Communications Africa’s website really allows them to stand out in the PR sector. It shows their works and case studies — highlighting their expertise and educating users about the company philosophy.",
       stack: ["next.js", "typescript", "framer motion", "tailwindcss"],
