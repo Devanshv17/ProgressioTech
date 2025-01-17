@@ -111,22 +111,24 @@ export default function Hero() {
 
       {/* IMAGE */}
       <div>
-        <motion.div
-          ref={imgRef}
-          style={{ rotate }}
-          className="h-image flex items-center w-[310px] h-[380px] xl:w-[390px] xl:h-[470px] justify-center relative"
-          initial={{ opacity: 0 }}
-          animate={animateIn1}
-        >
-          <Image
-            src="/transparent-ade-min.png"
-            priority
-            fill
-            alt="company logo"
-            className="bg-image-radial px-10 pt-20"
-          />
-        </motion.div>
-      </div>
+  <motion.div
+    ref={imgRef}
+    style={{ rotate }}
+    className="h-image flex items-center w-[400px] h-[400px] xl:w-[500px] xl:h-[500px] justify-center relative"
+    initial={{ opacity: 0 }}
+    animate={animateIn1}
+  >
+    <Image
+      src="/logo.png"
+      priority
+      fill
+      alt="company logo"
+      className="bg-image-radial px-10 py-10 absolute inset-0 m-auto"
+    />
+  </motion.div>
+</div>
+
+
     </section>
   );
 }
