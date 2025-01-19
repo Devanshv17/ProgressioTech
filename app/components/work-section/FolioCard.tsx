@@ -60,7 +60,7 @@ export default function FolioCard({
             >
               <Icon icon="line-md:external-link-rounded" />
             </Link>
-            <Link
+            {/* <Link
               href={`${gitLink ? gitLink : "#"}`}
               className="rounded-full bg-icon-radial p-3"
               target="_blank"
@@ -75,7 +75,7 @@ export default function FolioCard({
                 icon="mingcute:github-line"
                 className={`${!gitLink && "opacity-30"}`}
               />
-            </Link>
+            </Link> */}
           </div>
         </div>
         <p className="text-base text-white/70">{about}</p>

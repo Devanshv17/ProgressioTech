@@ -13,30 +13,30 @@ export default function Works() {
 
   const works = [
     {
-      title: "Offset Africa",
+      title: "Udghosh",
       // gitLink: "https://github.com/adex-hub/url-shortening-api-landing",
       liveLink: " ",
       about:
-        "Offset Communications Africa’s website really allows them to stand out in the PR sector. It shows their works and case studies — highlighting their expertise and educating users about the company philosophy.",
-      stack: ["next.js", "typescript", "framer motion", "tailwindcss"],
+        "Udghosh is a feature-rich mobile application developed for the sports fest of IIT Kanpur. It provides users with seamless navigation by showcasing their real-time location, offers instant access to live scores of ongoing competitions, and ensures they stay updated with timely notifications. Additionally, the app includes a comprehensive schedule of live events, enabling users to plan their participation and attendance effectively. This application serves as an integrated platform to enhance the fest experience by combining convenience, information, and real-time updates.",
+      stack: ["Flutter", "mongodb", "firebase"],
       img: "/offset-folio.svg",
     },
     {
-      title: "Shortly",
-      gitLink: "https://github.com/adex-hub/url-shortening-api-landing",
+      title: "Techkriti App",
+      // gitLink: "https://github.com/adex-hub/url-shortening-api-landing",
       liveLink: "https://lnk-shortener.netlify.app/",
       about:
-        "A link shortener for a fictional company that effectively shortens links and stores them. No matter how many links you shorten, you can revisit the site anytime to view and manage your previously shortened links.",
-      stack: ["next.js", "typescript", "framer motion", "tailwindcss"],
+        "Techkriti’s mobile application is a cornerstone of the fest’s digital presence, designed to provide a seamless and interactive experience for users. The app includes real-time location tracking to help users navigate event venues effortlessly, a detailed schedule management feature ensuring participants can plan their activities effectively across various events, a notification system for timely alerts and announcements enhancing coordination, and a user-friendly design delivering an intuitive interface for engaging with fest activities efficiently.",
+      stack: ["Flutter", "mongodb", "firebase"],
       img: "/shortly.svg",
     },
     {
-      title: "Where in the world",
-      gitLink: "https://github.com/adex-hub/where-in-the-world",
+      title: "Techkriti Website",
+      // gitLink: "https://github.com/adex-hub/where-in-the-world",
       liveLink: "https://where-in-the-world-ade.netlify.app/",
       about:
-        "A fun tool for checking information about any country in the world such as the country’s native name, currency, population,  border countries etc. It features dynamic routing for each country and theme switch.",
-      stack: ["react", "react-router", "javascript", "tailwindcss"],
+        "The website acts as a comprehensive portal to streamline fest operations and improve accessibility for participants. It offers hassle-free participant registration for individuals joining the fest, a system for managing workshop and competition registrations and participation, and a robust Content Management System (CMS) empowering the organizing team to update and manage event details, ensuring accurate and timely information throughout the fest.",
+      stack: ["react", "react-router", "javascript", "tailwindcss","firebase","mongodb"],
       img: "/witw.svg",
     },
     // {
@@ -49,12 +49,21 @@ export default function Works() {
     //   img: "/todo.svg",
     // },
     {
-      title: "Multi-step form",
-      gitLink: "https://github.com/adex-hub/multi-step-form-main",
+      title: "IISM IIT Kanpur",
+      // gitLink: "https://github.com/adex-hub/multi-step-form-main",
       liveLink: "https://ade-loremgaming.netlify.app/",
       about:
-        "This site features a clean, user-friendly multi-step form for subscribing to a gaming service. Users input personal info, select a plan (monthly or yearly), choose add-ons (online service, larger storage, customizable profile), and review the summary before confirming.",
-      stack: ["html", "sass", "javascript", "ms clarity"],
+        "The IISc app, developed for the Inter IIT Sports Carnival, is a comprehensive platform designed to enhance the event experience for participants, staff, and spectators. It offers secure login and authentication tailored to users' roles, real-time updates on live scores, and location tracking to help navigate event venues. The app also features timely notifications, a participant directory for fostering interaction, and role-based access for staff and students. Additional functionalities include efficient management of meal billing for players and live streaming of sports events, ensuring an immersive and seamless experience for all involved.",
+      stack: ["Flutter", "postgresql", "firebase"],
+      img: "/multistep.svg",
+    },
+    {
+      title: "Entrex",
+      // gitLink: "https://github.com/adex-hub/multi-step-form-main",
+      liveLink: "https://ade-loremgaming.netlify.app/",
+      about:
+        "Entrex is an entry-exit management app developed for IIT Kanpur, designed to streamline the process of student entry and exit at the main gate and hall gates. The app features two user versions: User and Admin. The User version allows students to scan a QR code, with their entry data and personal details being securely saved in the database. The Admin version is responsible for generating dynamic QR codes that change over time for enhanced security, as well as managing and overseeing the student entry process. Additionally, the app includes a login authentication feature, where students can log in using their institute ID, with email verification ensuring secure access. This system ensures smooth and secure entry management for students.",
+      stack: ["Flutter", "postgresql", "firebase"],
       img: "/multistep.svg",
     },
   ];
@@ -80,14 +89,14 @@ export default function Works() {
           key={index}
           img={work.img}
           title={work.title}
-          gitLink={work.gitLink}
+          // gitLink={work.gitLink}
           liveLink={work.liveLink}
           about={work.about}
           stack={work.stack}
         />
       ))}
 
-      <Timeline />
+      {/* <Timeline /> */}
     </section>
   );
 }

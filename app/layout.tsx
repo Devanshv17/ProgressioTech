@@ -10,7 +10,7 @@ import { ViewProvider } from "@/contexts/ViewContext";
 const kumbhSans = Kumbh_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Devansh Verma — Frontend Software Engineer",
+  title: "ProgressioTech",
   description:
     "We are a group of passionate development Engineer excited about crafting next-gen software. We drive growth by crafting user experiences that blend their ideas with functionality through our development skills. We thrive on turning ideas into seamless digital solutions.",
   keywords: [
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     "portfolio",
   ],
   openGraph: {
-    title: "Devansh Verma — Frontend Software Engineer",
+    title: "ProgressioTech",
     description:
       "Frontend Engineer at Bluechip Technologies, passionate about crafting next-gen software. I drive growth by crafting user experiences that blend aesthetics with functionality through my design and development skills. I thrive on turning ideas into seamless digital solutions.",
     url: "https://www.adeolabadero.me",
