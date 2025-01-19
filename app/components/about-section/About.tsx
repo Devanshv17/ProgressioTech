@@ -34,7 +34,7 @@ export default function About() {
         <div className="grid grid-cols-1 antialiased gap-6 text-white/90 text-3xl md:text-2xl">
           <AnimatedBody className="leading-[34px] md:leading-[39px]">
             Our passion lies in creating strong business solutions that aid
-            business growth. Whether it's a website to boost brand publicity or
+            business growth. Whether its a website to boost brand publicity or
             software solutions that streamline otherwise manual processes, we
             love taking brands from point A to their dreamy point B.
           </AnimatedBody>
