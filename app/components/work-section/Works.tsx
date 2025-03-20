@@ -53,8 +53,8 @@ export default function Works() {
       // gitLink: "https://github.com/adex-hub/multi-step-form-main",
       liveLink: "https://ade-loremgaming.netlify.app/",
       about:
-        "The IISc app, developed for the Inter IIT Sports Carnival, is a comprehensive platform designed to enhance the event experience for participants, staff, and spectators. It offers secure login and authentication tailored to users' roles, real-time updates on live scores, and location tracking to help navigate event venues. The app also features timely notifications, a participant directory for fostering interaction, and role-based access for staff and students. Additional functionalities include efficient management of meal billing for players and live streaming of sports events, ensuring an immersive and seamless experience for all involved.",
-      stack: ["Flutter", "postgresql", "firebase"],
+        "The IISM app, developed for the Inter IIT Sports Meet, is a comprehensive platform designed to enhance the event experience for participants, staff, and spectators. It offers secure login and authentication tailored to users' roles, real-time updates on live scores, and location tracking to help navigate event venues. The app also features timely notifications, a participant directory for fostering interaction, and role-based access for staff and students. Additional functionalities include efficient management of meal billing for players and live streaming of sports events, ensuring an immersive and seamless experience for all involved.",
+      stack: ["Flutter", "mysql", "firebase"],
       img: "/multistep.svg",
     },
     {
@@ -64,6 +64,33 @@ export default function Works() {
       about:
         "Entrex is an entry-exit management app developed for IIT Kanpur, designed to streamline the process of student entry and exit at the main gate and hall gates. The app features two user versions: User and Admin. The User version allows students to scan a QR code, with their entry data and personal details being securely saved in the database. The Admin version is responsible for generating dynamic QR codes that change over time for enhanced security, as well as managing and overseeing the student entry process. Additionally, the app includes a login authentication feature, where students can log in using their institute ID, with email verification ensuring secure access. This system ensures smooth and secure entry management for students.",
       stack: ["Flutter", "postgresql", "firebase"],
+      img: "/multistep.svg",
+    },
+    {
+      title: "We Grow Parenting App",
+      // gitLink: "https://github.com/adex-hub/multi-step-form-main",
+      liveLink: "https://ade-loremgaming.netlify.app/",
+      about:
+        "We Grow is a parenting-focused mobile application developed by one of the team member for a startup, providing parents with expert guidance, community engagement, and curated video content. Built using Flutter, the app delivers a seamless cross-platform experience and is available on both App Store and Play Store. The backend, powered by Go, ensures high performance and scalability. Key features include categorized parenting tips, video integration, and a user-friendly community section. With firebase for storage and database management, the app efficiently handles data. We Grow showcases our expertise in full-stack development, from robust backend architecture to an intuitive mobile UI.",
+      stack: ["Flutter", "Go", "firebase"],
+      img: "/multistep.svg",
+    },
+    {
+      title: "RESTOX Website",
+      // gitLink: "https://github.com/adex-hub/multi-step-form-main",
+      liveLink: "https://ade-loremgaming.netlify.app/",
+      about:
+        "ReSTOX is a fully integrated real estate platform designed to simplify property listing and exploration. Built with an intuitive interface, it features 3D property views and pin-point mapping, offering an immersive browsing experience. The website includes a robust property management system, allowing users to list and showcase properties effortlessly with detailed information and high-quality visuals. It supports Google login for seamless access and provides advanced search and navigation features for both buyers and sellers. With a focus on user experience, ReSTOX ensures a smooth and efficient way to discover, manage, and explore real estate properties online.",
+      stack:  ["react", "react-router", "javascript", "tailwindcss","firebase","mongodb"],
+      img: "/multistep.svg",
+    },
+    {
+      title: "EDUWISE Website",
+      // gitLink: "https://github.com/adex-hub/multi-step-form-main",
+      liveLink: "https://ade-loremgaming.netlify.app/",
+      about:
+        "EduWise is a secure web-based platform designed for IIT Kanpur students to upload and download course materials with exclusive access. Built with robust authentication and security measures, it ensures a spam-free environment for academic resource sharing. Students can log in and contribute lecture notes, assignments, and reference materials, fostering a collaborative learning ecosystem. With a centralized repository, EduWise simplifies access to essential study materials, making learning more efficient. Developed as a solo project, the platform is tailored to enhance academic engagement while maintaining privacy and content integrity within the IITK community.",
+      stack:  ["next", "next-router", "javascript", "tailwindcss","firebase","mongodb"],
       img: "/multistep.svg",
     },
   ];
